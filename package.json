@@ -8,9 +8,11 @@
   "type": "git",
   "url": "https://github.com/prasenjeett/zet-validation.git"
   }
+  
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": ["validation", "react", "media", "form"],
   "author": "xAI",
