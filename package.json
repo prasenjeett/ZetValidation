@@ -1,24 +1,13 @@
 {
-  "name": "zet-validation",
+  "name": "@prasenjeet_howlader/zet-validation",
   "version": "1.0.0",
-  "description": "A powerful validation library for React with media support",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepublish": "npm run build"
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "keywords": ["validation", "react", "media", "form"],
-  "author": "xAI",
-  "license": "MIT",
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  },
-  "files": [
-    "dist"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasenjeett/ZetValidation.git"
+  }
 }
