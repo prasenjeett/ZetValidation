@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
+    "target": "ES6",
+    "module": "CommonJS",
     "declaration": true,
-    "outDir": "./dist",
-    "strict": true
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["es2015", "es2017", "es2019", "dom"] // Added for Promise, Map, Object.entries, etc.
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "test"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
