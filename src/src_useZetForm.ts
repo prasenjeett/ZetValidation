@@ -23,4 +23,6 @@ export function useZetForm<T>(schemaInstance: ZetSchema<T>, initialValue: T, opt
     async (data: unknown, stage: string = "default") => {
       setIsValidating(true);
       setValidationProgress({ [stage]: `Validating ${stage}...` });
+    }
+)
      
