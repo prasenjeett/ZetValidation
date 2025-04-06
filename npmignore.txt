@@ -1,0 +1,6 @@
+# Exclude unnecessary files
+node_modules
+src
+test
+.git
+.github
