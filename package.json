@@ -1,24 +1,24 @@
 {
-  "name": "ZetSchema",
+  "name": "zet-validation",
   "version": "1.0.0",
-  "description": "Your package description",
+  "description": "A powerful validation library for React with media support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "Your Name",
-  "license": "ISC",
-  "files": [
-    "dist"
-  ],
-   "peerDependencies": {
+  "keywords": ["validation", "react", "media", "form"],
+  "author": "xAI",
+  "license": "MIT",
+  "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.0"
-  }
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "dist"
+  ]
 }
