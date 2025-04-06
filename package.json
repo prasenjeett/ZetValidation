@@ -2,12 +2,12 @@
   "name": "zet-validation",
   "version": "1.0.0",
   "description": "A powerful validation library for React with media support",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": {
   "type": "git",
-  "url": "https://github.com/prasenjeett/zet-validation.git"
-  }
+  "url": "https://github.com/prasenjeett/ZetValidation.git"
+  },
   
   "scripts": {
     "build": "tsc",
@@ -25,6 +25,6 @@
     "typescript": "^4.9.5"
   },
   "files": [
-    "dist"
+    "src"
   ]
 }
